@@ -37,46 +37,27 @@
 </script>
 
 <template>
-    <div class="black-bg m-0 p-0">
-        <div class="container-xxl">
-            <h1>--&gt; Content goes here &lt;--</h1>
+    
+    <main>
+        <div class="black-bg m-0 p-0">
+            <div class="container-xxl">
+                <h1>--&gt; Content goes here &lt;--</h1>
+            </div>
         </div>
-    </div>
-    <div class="blue-bg m-0 p-0 text-white">
-        <div class="container-xxl">
-            <ul class="d-flex align-items-center justify-content-between">
-                <li v-for="(v, index) in servicesList" :key="index"><img :src="getImagePath(v.imgSrc)" :alt="v.serviceName" class="mx-3">{{ v.serviceName }}</li>
-            </ul>
+        <div class="blue-bg m-0 p-0 text-white">
+            <div class="container-xxl">
+                <ul class="d-flex align-items-center justify-content-between">
+                    <li v-for="(v, index) in servicesList" :key="index"><img :src="getImagePath(v.imgSrc)" :alt="v.serviceName" class="mx-3">{{ v.serviceName }}</li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </main>
+    
+
 </template>
 
 <style lang="scss" scoped>
 
-    .black-bg {
-        color:white;
-        background-color: #1C1C1C;
-        width:100%;
-        height:150px;
-
-        h1 {
-            line-height:140px;
-            font-size:2rem;
-        }
-    }
+    @import url('../assets/scss/partials/components/DC_Main.scss');
     
-    li > img {
-        width:48px;
-    }
-
-    .blue-bg {
-        width:100%;
-        height:180px;
-        background-color:#0282F9;
-        .container-xxl {
-            height:100%;
-        }
-    }
-    
-
 </style>
