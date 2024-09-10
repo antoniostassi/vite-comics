@@ -1,7 +1,5 @@
 <script >
 
-    import DC_BlueBar from './DC_BlueBar.vue';
-
     export default {
         data(){
             return {
@@ -33,25 +31,23 @@
             getImagePath(imgSource){
                 return new URL(`../assets/img/${imgSource}`, import.meta.url).href;
             }
-        },
-        components:{
-            DC_BlueBar
         }
     }
 
 </script>
 
 <template>
-    
-    <main class="reddit-font">
-        <div class="black-bg m-0 p-0">
-            <div class="container-xxl">
-                <h1>--&gt; Content goes here &lt;--</h1>
-            </div>
+
+    <div class="blue-bg m-0 p-0 text-white">
+        <div class="container-xxl">
+            <ul class="d-flex align-items-center justify-content-between">
+                <li v-for="(v, index) in servicesList" :key="index">
+                    <img :src="getImagePath(v.imgSrc)" :alt="v.serviceName" class="mx-3">
+                    {{ v.serviceName }}
+                </li>
+            </ul>
         </div>
-        <DC_BlueBar/>
-    </main>
-    
+    </div>
 
 </template>
 
