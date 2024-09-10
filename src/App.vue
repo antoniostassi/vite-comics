@@ -10,10 +10,15 @@
 		},
 		methods:{
 
+		},
+		components:{
+			DC_Header, DC_Main, DC_Footer
 		}
+		
 	}
 
 </script>
+
 
 <template>
 
@@ -25,6 +30,5 @@
 
 <style lang="scss" scoped>
 
-    
 
 </style>

@@ -2,21 +2,81 @@
 
     export default {
         data(){
-
+            return {
+                servicesList:[
+                    {
+                        imgSrc: "buy-comics-digital-comics.png",
+                        serviceName: "DIGITAL COMICS"
+                    },
+                    {
+                        imgSrc: "buy-comics-merchandise.png",
+                        serviceName: "DC MERCHANDISE"
+                    },
+                    {
+                        imgSrc: "buy-comics-subscriptions.png",
+                        serviceName: "SUBSCRIPTION"
+                    },
+                    {
+                        imgSrc: "buy-comics-shop-locator.png",
+                        serviceName: "COMIC SHOP LOCATOR"
+                    },
+                    {
+                        imgSrc: "buy-dc-power-visa.svg",
+                        serviceName: "DC POWER VISA"
+                    }
+                ]
+            }
         },
         methods:{
-
+            getImagePath(imgSource){
+                return new URL(`../assets/img/${imgSource}`, import.meta.url).href;
+            }
         }
     }
 
 </script>
 
 <template>
-
+    <div class="black-bg m-0 p-0">
+        <div class="container-xxl">
+            <h1>--&gt; Content goes here &lt;--</h1>
+        </div>
+    </div>
+    <div class="blue-bg m-0 p-0 text-white">
+        <div class="container-xxl">
+            <ul class="d-flex align-items-center justify-content-center ">
+                <li v-for="(v, index) in servicesList" :key="index" class="mx-2 px-1"><img :src="getImagePath(v.imgSrc)" :alt="v.serviceName" class="mx-3">{{ v.serviceName }}</li>
+            </ul>
+        </div>
+    </div>
 </template>
 
 <style lang="scss" scoped>
 
+    .black-bg {
+        color:white;
+        background-color: #1C1C1C;
+        width:100%;
+        height:150px;
+
+        h1 {
+            line-height:140px;
+            font-size:2rem;
+        }
+    }
+    
+    li > img {
+        width:50px;
+    }
+
+    .blue-bg {
+        width:100%;
+        height:180px;
+        background-color:#0282F9;
+        .container-xxl {
+            height:100%;
+        }
+    }
     
 
 </style>
