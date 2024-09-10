@@ -1,0 +1,28 @@
+
+.dc {
+    height:35dvh;
+    background-image:url('../../../img/footer-bg.jpg');
+    background-size:cover;
+}
+
+.col-5:last-child > img {
+    z-index:0;
+    position:relative;
+    bottom:30px;
+}
+
+footer {
+    height:max-content;
+    max-height:1200px;
+    .lower-footer {
+        z-index:1;
+        position:relative;
+        background-color: #1C1C1C;
+    }
+}
+
+button {
+    border-width:3px;
+    border-radius:0;
+    font-size:1.3rem;
+}
