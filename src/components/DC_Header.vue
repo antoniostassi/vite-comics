@@ -60,7 +60,7 @@
 <template>
 
     <header class="reddit-font">
-        <div class="container-xxl p-3 open-sans">
+        <div class="container-xxl">
             <div class="row pb-3">
                 <div class="col-4">
                     <img src="../assets/img/dc-logo.png" alt="" class="m-3">

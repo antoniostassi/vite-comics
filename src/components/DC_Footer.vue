@@ -38,10 +38,50 @@
 
 <template>
     <footer>
-        <div class="dc">
+        <div class="dc reddit-font">
             <div class="container-xxl">
                 <div class="row">
-                    <div class="col-7"></div>
+                    <div class="col-7 text-white">
+                        <div class="d-flex pt-5">
+                            <div class="mx-5">
+                                <h4>DC COMICS</h4>
+                                <ul>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="mx-5">
+                                <h4>DC</h4>
+                                <ul>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="mx-5">
+                                <h4>SITES</h4>
+                                <ul>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                    <li>Characters</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
                     <div class="col-5">
                         <img src="../assets/img/dc-logo-bg.png" alt="">
                     </div>
