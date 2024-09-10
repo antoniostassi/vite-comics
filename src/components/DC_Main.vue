@@ -47,7 +47,10 @@
         <div class="blue-bg m-0 p-0 text-white">
             <div class="container-xxl">
                 <ul class="d-flex align-items-center justify-content-between">
-                    <li v-for="(v, index) in servicesList" :key="index"><img :src="getImagePath(v.imgSrc)" :alt="v.serviceName" class="mx-3">{{ v.serviceName }}</li>
+                    <li v-for="(v, index) in servicesList" :key="index">
+                        <img :src="getImagePath(v.imgSrc)" :alt="v.serviceName" class="mx-3">
+                        {{ v.serviceName }}
+                    </li>
                 </ul>
             </div>
         </div>

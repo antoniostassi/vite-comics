@@ -57,7 +57,11 @@
                     <div class="col-6 d-flex justify-content-end align-items-center">
                         <h3 class="me-3">FOLLOW US</h3>
                         <ul class="d-flex align-items-center">
-                            <li v-for="(v, index) in socialList" :key="index" class="mx-3"><a :href="v.socialLink"><img :src="getImagePath(v.socialIcon)" alt=""></a></li>
+                            <li v-for="(v, index) in socialList" :key="index" class="mx-3">
+                                <a :href="v.socialLink">
+                                    <img :src="getImagePath(v.socialIcon)" alt="">
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
