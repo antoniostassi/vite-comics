@@ -15,9 +15,12 @@ ul {
     list-style-type: none;
 }
 
-.open-sans {
-  font-family: "Open Sans", sans-serif !important;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: bold;
+.reddit-font {
+    font-family:'RedditSans', serif !important;
+}
+
+@font-face {
+    font-family: "RedditSans";
+    src:url("./assets/fonts/Reddit_Sans_Condensed/RedditSans.ttf");
+    font-weight: bold;
 }

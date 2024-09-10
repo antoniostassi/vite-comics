@@ -38,7 +38,7 @@
 
 <template>
     
-    <main>
+    <main class="reddit-font">
         <div class="black-bg m-0 p-0">
             <div class="container-xxl">
                 <h1>--&gt; Content goes here &lt;--</h1>

@@ -59,7 +59,7 @@
 
 <template>
 
-    <header>
+    <header class="reddit-font">
         <div class="container-xxl p-3 open-sans">
             <div class="row pb-3">
                 <div class="col-4">
