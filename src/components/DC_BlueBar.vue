@@ -40,10 +40,10 @@
 
     <div class="blue-bg m-0 p-0 text-white">
         <div class="container-xxl">
-            <ul class="d-flex align-items-center justify-content-between">
+            <ul class="d-flex align-items-center justify-content-between px-5">
                 <li v-for="(v, index) in servicesList" :key="index">
-                    <img :src="getImagePath(v.imgSrc)" :alt="v.serviceName" class="mx-3">
-                    {{ v.serviceName }}
+                    <img :src="getImagePath(v.imgSrc)" :alt="v.serviceName">
+                    <span class="mx-3">{{ v.serviceName }}</span>
                 </li>
             </ul>
         </div>

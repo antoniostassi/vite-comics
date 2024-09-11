@@ -121,14 +121,14 @@
     <main class="reddit-font">
         <div class="jumbotron"></div>
         <div class="black-bg m-0 p-0">
-            <div class="container-xxl pb-3">
+            <div class="container-xxl pb-5">
                 <div class="current-series">
                     CURRENT SERIES
                 </div>
                 <div class="d-flex flex-wrap">
                     <DC_Content v-for="(card, index) in comicsList" :key="index" :comicsList="card"/>
                 </div>
-                <div class="load-more">LOAD MORE</div>
+                <div class="load-more mt-2">LOAD MORE</div>
             </div>
             
         </div>
