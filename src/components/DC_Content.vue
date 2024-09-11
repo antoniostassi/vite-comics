@@ -12,8 +12,9 @@
 </script>
 
 <template>
-    <div class="comic-card">
-        <img :src="comicsList.thumb" :alt=comicsList.series>
+    <div class="comic-card ">
+        <img :src="comicsList.thumb" :alt=comicsList.series class="shadow-lg">
+        <div class="mt-2">{{ comicsList.series }}</div>
     </div>
 </template>
 

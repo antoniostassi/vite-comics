@@ -1,8 +1,4 @@
-
-li > img {
-    width:48px;
-}
-
+// Blue bg for blue bar component
 .blue-bg {
     width:100%;
     height:180px;
@@ -14,13 +10,22 @@ li > img {
     }
 }
 
+li > img {
+    width:48px;
+}
+
 .comic-card {
     padding:20px;
     margin-bottom:20px;
+    
     img {
         width:170px;
-        height:250px;
+        height:200px;
         object-fit:cover;
+    }
+
+    div {
+        max-width:170px;
     }
 }
 

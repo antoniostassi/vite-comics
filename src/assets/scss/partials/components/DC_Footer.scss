@@ -36,4 +36,7 @@ button {
 .dc ul li {
     font-size:0.9rem;
     color:Gray;
+    &:hover {
+        cursor:pointer;
+    }
 }
