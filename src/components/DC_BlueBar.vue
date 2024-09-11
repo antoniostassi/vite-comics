@@ -53,6 +53,6 @@
 
 <style lang="scss" scoped>
 
-    @import url('../assets/scss/partials/components/DC_Main.scss');
+    @import url('../assets/scss/partials/components/DC_Content.scss');
     
 </style>
