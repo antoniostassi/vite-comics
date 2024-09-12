@@ -6,28 +6,6 @@
     export default {
         data(){
             return {
-                servicesList:[
-                    {
-                        imgSrc: "buy-comics-digital-comics.png",
-                        serviceName: "DIGITAL COMICS"
-                    },
-                    {
-                        imgSrc: "buy-comics-merchandise.png",
-                        serviceName: "DC MERCHANDISE"
-                    },
-                    {
-                        imgSrc: "buy-comics-subscriptions.png",
-                        serviceName: "SUBSCRIPTION"
-                    },
-                    {
-                        imgSrc: "buy-comics-shop-locator.png",
-                        serviceName: "COMIC SHOP LOCATOR"
-                    },
-                    {
-                        imgSrc: "buy-dc-power-visa.svg",
-                        serviceName: "DC POWER VISA"
-                    }
-                ],
                 comicsList:[
                     {
                         "thumb": "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
